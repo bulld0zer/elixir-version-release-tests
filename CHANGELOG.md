@@ -1,6 +1,7 @@
 <!-- next-header -->
 
 ## [Unreleased] - ReleaseDate
+v0.0.7-rc.1
 
 ## [0.0.7-rc.0] - 2020-8-19
 v0.0.7-rc.0
