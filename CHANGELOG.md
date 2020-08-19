@@ -1,6 +1,8 @@
 <!-- next-header -->
 
 ## [Unreleased] - ReleaseDate
+
+## [0.0.4] - 2020-8-19
 * fix changelog
 * fix changelog config
 
@@ -16,7 +18,8 @@
 * Added version-release 0.0.1-alpha.0
 
 <!-- next-url -->
-[Unreleased]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v0.0.3...HEAD
+[Unreleased]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v0.0.4...HEAD
+[0.0.4]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v0.0.3...v0.0.4
 [0.0.3]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v0.0.2...v0.0.3
 [0.0.2]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v0.0.2...v0.0.2
 [0.0.2]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v0.0.1...v0.0.2
