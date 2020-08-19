@@ -1,6 +1,7 @@
 <!-- next-header -->
 
 ## [Unreleased] - ReleaseDate
+v0.1.1
 
 ## [0.1.1-beta.1] - 2020-8-19
 v0.1.1-beta.1
