@@ -1,6 +1,7 @@
 <!-- next-header -->
 
 ## [Unreleased] - ReleaseDate
+v0.0.7-rc.0
 
 ## [0.0.7-beta.2] - 2020-8-19
 
