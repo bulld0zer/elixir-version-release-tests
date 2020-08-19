@@ -1,6 +1,8 @@
 <!-- next-header -->
 
 ## [Unreleased] - ReleaseDate
+
+## [0.2.0] - 2020-8-19
 v0.2.0
 
 ## [0.1.2] - 2020-8-19
@@ -64,7 +66,8 @@ v0.0.7-beta.1
 * Added version-release 0.0.1-alpha.0
 
 <!-- next-url -->
-[Unreleased]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v0.1.2...HEAD
+[Unreleased]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v0.1.2...v0.2.0
 [0.1.2]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v0.1.1-beta.1...v0.1.1
 [0.1.1-beta.1]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v0.1.1-beta.0...v0.1.1-beta.1
