@@ -1,6 +1,8 @@
 <!-- next-header -->
 
 ## [Unreleased] - ReleaseDate
+### Added
+* formatter.exs
 
 ## [0.0.2] - 2020-8-19
 ### Added

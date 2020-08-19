@@ -18,8 +18,8 @@ defmodule VersionReleaseTests.MixProject do
   end
 
   defp deps do
-    [      
-      {:version_release, path: "../elixir-version-release", only: :dev, runtime: false},
+    [
+      {:version_release, path: "../elixir-version-release", only: :dev, runtime: false}
     ]
   end
 end

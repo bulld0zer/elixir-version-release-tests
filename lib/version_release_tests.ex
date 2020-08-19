@@ -1,3 +1,2 @@
 defmodule VersionReleaseTests do
-  
 end
