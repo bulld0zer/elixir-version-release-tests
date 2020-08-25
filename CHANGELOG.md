@@ -2,6 +2,8 @@
 
 ## [Unreleased] - ReleaseDate
 
+## [1.0.2] - 2020-8-25
+
 ## [1.0.1] - 2020-8-25
 - testing disable git push in config
 
@@ -82,7 +84,8 @@ v0.0.7-beta.1
 * Added version-release 0.0.1-alpha.0
 
 <!-- next-url -->
-[Unreleased]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v1.0.1...HEAD
+[Unreleased]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v1.0.2...HEAD
+[1.0.2]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v1.0.1-alpha.5...v1.0.1
 [1.0.1-alpha.5]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v1.0.1-alpha.4...v1.0.1-alpha.5
 [1.0.1-alpha.4]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v1.0.1-alpha.3...v1.0.1-alpha.4
