@@ -26,6 +26,7 @@ defmodule VersionReleaseTests.MixProject do
 
   defp deps do
     [
+      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
       {:version_release, path: "../elixir-version-release", only: :dev, runtime: false}
     ]
   end
