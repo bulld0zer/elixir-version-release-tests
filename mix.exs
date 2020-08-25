@@ -6,6 +6,13 @@ defmodule VersionReleaseTests.MixProject do
       app: :version_release_tests,
       version: "1.0.1-alpha.1",
       elixir: "~> 1.8",
+      description: "Tests for version_release",
+      package: [
+        name: "version_release_tests",
+        files: ~w(lib mix.exs README* CHANGELOG*),
+        licenses: ["MIT"],
+        links: %{"GitHub" => "https://github.com/bulld0zer/elixir-version-release-tests"}
+      ]
       elixirc_paths: ["lib"],
       deps: deps()
     ]
