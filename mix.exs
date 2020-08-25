@@ -12,7 +12,7 @@ defmodule VersionReleaseTests.MixProject do
         files: ~w(lib mix.exs README* CHANGELOG*),
         licenses: ["MIT"],
         links: %{"GitHub" => "https://github.com/bulld0zer/elixir-version-release-tests"}
-      ]
+      ],
       elixirc_paths: ["lib"],
       deps: deps()
     ]
