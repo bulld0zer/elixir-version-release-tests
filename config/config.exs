@@ -21,5 +21,9 @@ config :version_release,
         %{search: "<!-- next-url -->", replace: "<!-- next-url -->\n[Unreleased]: https://github.com/bulld0zer/elixir-version-release-tests/compare/{{tag_name}}...HEAD", global: false}    
       ]}
     ]
-  }
+  },
+  merge: [
+    %{from: "master", to: ["develop", "edge"]}, 
+    %{from: "develop", to: ["edge"]} 
+  ]
 
