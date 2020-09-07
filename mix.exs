@@ -4,7 +4,7 @@ defmodule VersionReleaseTests.MixProject do
   def project do
     [
       app: :version_release_tests,
-      version: "1.0.4-alpha.1",
+      version: "1.0.4-alpha.2",
       elixir: "~> 1.8",
       description: "Tests for version_release",
       package: [
