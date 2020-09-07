@@ -1,6 +1,7 @@
 <!-- next-header -->
 
 ## [Unreleased] - ReleaseDate
+* Test mergers
 
 ## [1.0.1-alpha.5] - 2020-8-25
 
