@@ -1,6 +1,7 @@
 <!-- next-header -->
 
 ## [Unreleased] - ReleaseDate
+- commit message conf
 
 ## [1.0.3] - 2020-8-25
 
