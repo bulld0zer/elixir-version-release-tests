@@ -26,5 +26,5 @@ config :version_release,
   merge: [
     %{from: "master", to: ["develop", "edge"]},
     %{from: "develop", to: ["edge"]}
-  ]
+  ],
   commit_message: "New version is [[{{version}}]]"
