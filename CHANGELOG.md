@@ -2,6 +2,8 @@
 
 ## [Unreleased] - ReleaseDate
 
+## [1.0.9] - 2021-5-13
+
 ## [1.0.8] - 2021-5-13
 - commit message conf
 - CONFLICT C
@@ -108,7 +110,8 @@ v0.0.7-beta.1
 * Added version-release 0.0.1-alpha.0
 
 <!-- next-url -->
-[Unreleased]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v1.0.8...HEAD
+[Unreleased]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v1.0.9...HEAD
+[1.0.9]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v1.0.8...v1.0.9
 [1.0.8]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v1.0.8...v1.0.8
 [1.0.8]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v1.0.7...v1.0.8
 [1.0.7]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v1.0.6...v1.0.7
