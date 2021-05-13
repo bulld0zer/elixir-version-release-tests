@@ -1,6 +1,7 @@
 <!-- next-header -->
 
 ## [Unreleased] - ReleaseDate
+- CONFLICT A
 - CONFLICT C
 ## [1.0.9] - 2021-5-13
 
