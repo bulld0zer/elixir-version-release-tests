@@ -1,6 +1,8 @@
 <!-- next-header -->
 
 ## [Unreleased] - ReleaseDate
+
+## [1.0.8] - 2021-5-13
 - commit message conf
 - CONF bc
 
@@ -107,6 +109,7 @@ v0.0.7-beta.1
 
 <!-- next-url -->
 [Unreleased]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v1.0.8...HEAD
+[1.0.8]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v1.0.8...v1.0.8
 [1.0.8]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v1.0.7...v1.0.8
 [1.0.7]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v1.0.6...v1.0.7
 [1.0.6]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v1.0.5...v1.0.6
