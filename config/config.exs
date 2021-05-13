@@ -9,7 +9,8 @@ use Mix.Config
 
 config :version_release,
   tag_prefix: "v",
-  hex_publish: true,
+  hex_publish: false,
+  # git_push: false,
   changelog: %{
     creation: :manual,
     replacements: [
@@ -18,12 +19,12 @@ config :version_release,
         %{search: "...HEAD", replace: "...{{tag_name}}", global: false},
         %{search: "ReleaseDate", replace: "{{date}}"},
         %{search: "<!-- next-header -->", replace: "<!-- next-header -->\n\n## [Unreleased] - ReleaseDate", global: false},
-        %{search: "<!-- next-url -->", replace: "<!-- next-url -->\n[Unreleased]: https://github.com/bulld0zer/elixir-version-release-tests/compare/{{tag_name}}...HEAD", global: false}    
+        %{search: "<!-- next-url -->", replace: "<!-- next-url -->\n[Unreleased]: https://github.com/bulld0zer/elixir-version-release-tests/compare/{{tag_name}}...HEAD", global: false}
       ]}
     ]
   },
   merge: [
-    %{from: "master", to: ["develop", "edge"]}, 
-    %{from: "develop", to: ["edge"]} 
-  ]
-
+    %{from: "master", to: ["develop", "edge"]},
+    %{from: "develop", to: ["edge"]}
+  ],
+  commit_message: "New version is [[{{version}}]]"

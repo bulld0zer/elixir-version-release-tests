@@ -1,6 +1,14 @@
 <!-- next-header -->
 
 ## [Unreleased] - ReleaseDate
+- commit message conf
+
+## [1.0.3] - 2020-8-25
+
+## [1.0.2] - 2020-8-25
+
+## [1.0.1] - 2020-8-25
+- testing disable git push in config
 
 ## [1.0.8] - 2020-9-17
 
@@ -97,12 +105,8 @@ v0.0.7-beta.1
 * Added version-release 0.0.1-alpha.0
 
 <!-- next-url -->
-<<<<<<< HEAD
-[Unreleased]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v1.0.7...HEAD
-=======
 [Unreleased]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v1.0.8...HEAD
 [1.0.8]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v1.0.7...v1.0.8
->>>>>>> master
 [1.0.7]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v1.0.6...v1.0.7
 [1.0.6]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v1.0.5...v1.0.6
 [1.0.5]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v1.0.4...v1.0.5
