@@ -23,8 +23,10 @@ config :version_release,
       ]}
     ]
   },
-  merge: [
-    %{from: "master", to: ["develop", "edge"]},
-    %{from: "develop", to: ["edge", "edge2"]}
-  ],
+  merge: %{
+    branches: [
+      %{from: "master", to: ["develop", "edge"]},
+      %{from: "develop", to: ["edge", "edge2"]}
+    ]
+  },
   commit_message: "New version is [[{{version}}]]"
