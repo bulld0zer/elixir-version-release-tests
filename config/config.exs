@@ -10,7 +10,7 @@ use Mix.Config
 config :version_release,
   tag_prefix: "v",
   hex_publish: false,
-  # git_push: false,
+  git_push: false,
   changelog: %{
     creation: :manual,
     replacements: [
