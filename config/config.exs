@@ -24,6 +24,7 @@ config :version_release,
     ]
   },
   merge: %{
+    ignore_confligs: true,
     branches: [
       %{from: "master", to: ["develop", "edge"]},
       %{from: "develop", to: ["edge", "edge2"]}
