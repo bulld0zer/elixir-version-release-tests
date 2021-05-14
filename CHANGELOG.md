@@ -3,6 +3,7 @@
 ## [Unreleased] - ReleaseDate
 - CONFLICT A
 - CONFLICT C
+- CONFLICT D
 ## [1.0.9] - 2021-5-13
 
 ## [1.0.8] - 2021-5-13
