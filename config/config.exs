@@ -26,8 +26,9 @@ config :version_release,
   merge: %{
     ignore_confligs: true,
     branches: [
-      %{from: "master", to: ["develop", "edge"]},
-      %{from: "develop", to: ["edge", "edge2"]}
+      %{from: "master", to: ["develop", "edge"], strategy: "resolve"},
+      %{from: "develop", to: ["edge", "edge2"], strategy: ["recursive", "--strategy-option", "theirs"]},
+      %{from: "alpha", to: ["develop"]}
     ]
   },
   commit_message: "[version_release] {{message}}"
