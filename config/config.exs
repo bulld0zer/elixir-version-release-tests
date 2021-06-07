@@ -30,4 +30,4 @@ config :version_release,
       %{from: "develop", to: ["edge", "edge2"]}
     ]
   },
-  commit_message: "New version is [[{{version}}]]"
+  commit_message: "[version_release] {{message}}"
