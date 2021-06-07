@@ -1,9 +1,12 @@
 <!-- next-header -->
 
 ## [Unreleased] - ReleaseDate
-- CONFLICT A
-- CONFLICT C
-- CONFLICT D
+
+## [1.0.11] - 2021-6-7
+- CONFLICT DBA
+- CONFLICT DBAC
+## [1.0.10] - 2021-5-13
+- CONFLICT DA
 ## [1.0.9] - 2021-5-13
 
 ## [1.0.8] - 2021-5-13
@@ -112,7 +115,8 @@ v0.0.7-beta.1
 * Added version-release 0.0.1-alpha.0
 
 <!-- next-url -->
-[Unreleased]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v1.0.10...HEAD
+[Unreleased]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v1.0.11...HEAD
+[1.0.11]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v1.0.10...v1.0.11
 [1.0.10]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v1.0.9...v1.0.10
 [1.0.9]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v1.0.8...v1.0.9
 [1.0.8]: https://github.com/bulld0zer/elixir-version-release-tests/compare/v1.0.8...v1.0.8

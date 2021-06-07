@@ -10,7 +10,7 @@ use Mix.Config
 config :version_release,
   tag_prefix: "v",
   hex_publish: false,
-  # git_push: false,
+  git_push: true,
   changelog: %{
     creation: :manual,
     replacements: [
@@ -23,8 +23,11 @@ config :version_release,
       ]}
     ]
   },
-  merge: [
-    %{from: "master", to: ["develop", "edge"]},
-    %{from: "develop", to: ["edge", "edge2"]}
-  ],
-  commit_message: "New version is [[{{version}}]]"
+  merge: %{
+    ignore_confligs: true,
+    branches: [
+      %{from: "master", to: ["develop", "edge"]},
+      %{from: "develop", to: ["edge", "edge2"]}
+    ]
+  },
+  commit_message: "[version_release] {{message}}"
