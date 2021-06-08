@@ -24,7 +24,7 @@ config :version_release,
     ]
   },
   merge: %{
-    ignore_confligs: true,
+    ignore_configs: true,
     branches: [
       %{from: "master", to: ["develop", "edge"], strategy: "resolve"},
       %{from: "develop", to: ["edge", "edge2"], strategy: ["recursive", "--strategy-option", "theirs"]},
