@@ -7,7 +7,7 @@
 ## Changed
 - Some change
 - Another change
-- Breaking change not compatible with something
+- Break change not compatible with something
 
 ## Fixed
 - Some bug
