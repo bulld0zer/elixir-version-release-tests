@@ -13,8 +13,8 @@ config :version_release,
   git_push: true,
   changelog: %{
     creation: :manual,
-    minor_patterns: ["Added", "Changed"],
-    major_patterns: ["Breaking"],
+    minor_patterns: ["added", "changed"],
+    major_patterns: ["breaking"],
     replacements: [
       %{
         file: "CHANGELOG.md",
