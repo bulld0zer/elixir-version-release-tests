@@ -1,6 +1,7 @@
 <!-- next-header -->
 
 ## [Unreleased] - ReleaseDate
+- A thing
 
 ## [1.2.0] - 2021-6-11
 ### Added
