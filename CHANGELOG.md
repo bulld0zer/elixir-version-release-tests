@@ -1,11 +1,15 @@
 <!-- next-header -->
 
 ## [Unreleased] - ReleaseDate
+## Added
 - Some feature
 - Another feature
+## Changed
 - Some change
 - Another change
 - Break change not compatible with something
+
+## Fixed
 - Some bug
 - Another bug
 - And one more thing
