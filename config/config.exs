@@ -13,14 +13,20 @@ config :version_release,
   git_push: true,
   changelog: %{
     creation: :manual,
+    minor_patterns: ["Added", "Changed"],
+    major_patterns: ["Breaking"],
     replacements: [
-      %{file: "CHANGELOG.md", patterns: [
-        %{search: "Unreleased", replace: "{{version}}"},
-        %{search: "...HEAD", replace: "...{{tag_name}}", global: false},
-        %{search: "ReleaseDate", replace: "{{date}}"},
-        %{search: "<!-- next-header -->", replace: "<!-- next-header -->\n\n## [Unreleased] - ReleaseDate", global: false},
-        %{search: "<!-- next-url -->", replace: "<!-- next-url -->\n[Unreleased]: https://github.com/bulld0zer/elixir-version-release-tests/compare/{{tag_name}}...HEAD", global: false}
-      ]}
+      %{
+        file: "CHANGELOG.md",
+        type: :changelog,
+        patterns: [
+          %{search: "Unreleased", replace: "{{version}}", type: :unreleased},
+          %{search: "...HEAD", replace: "...{{tag_name}}", global: false},
+          %{search: "ReleaseDate", replace: "{{date}}"},
+          %{search: "<!-- next-header -->", replace: "<!-- next-header -->\n\n## [Unreleased] - ReleaseDate", global: false},
+          %{search: "<!-- next-url -->", replace: "<!-- next-url -->\n[Unreleased]: https://github.com/bulld0zer/elixir-version-release-tests/compare/{{tag_name}}...HEAD", global: false}
+        ]
+      }
     ]
   },
   merge: %{

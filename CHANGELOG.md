@@ -1,6 +1,19 @@
 <!-- next-header -->
 
 ## [Unreleased] - ReleaseDate
+- This thing is Breaking
+## Added
+- Some feature
+- Another feature
+## Changed
+- Some change
+- Another change
+- Breaking change not compatible with something
+
+## Fixed
+- Some bug
+- Another bug
+- And one more thing
 
 ## [1.0.12] - 2021-6-7
 
