@@ -1,14 +1,14 @@
 <!-- next-header -->
 
 ## [Unreleased] - ReleaseDate
-- This thing is Breaking
+- This thing is breaking
 ## Added
 - Some feature
 - Another feature
 ## Changed
 - Some change
 - Another change
-- Breaking change not compatible with something
+- breaking change not compatible with something
 
 ## Fixed
 - Some bug
