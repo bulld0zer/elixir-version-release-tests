@@ -1,9 +1,9 @@
 <!-- next-header -->
 
 ## [Unreleased] - ReleaseDate
-
+- Thins is a breaking change
 ## [1.3.1] - 2021-6-11
-- Thins is a breacking change
+- Thins is a breaking change
 ## [1.3.0] - 2021-6-11
 ### Changed
 - Something
