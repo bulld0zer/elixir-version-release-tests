@@ -1,7 +1,8 @@
 <!-- next-header -->
 
 ## [Unreleased] - ReleaseDate
-
+### Changed
+- Something
 ## [1.2.1] - 2021-6-11
 - A thing
 
@@ -38,7 +39,7 @@
 
 ## [1.0.8] - 2021-5-13
 - commit message conf
-- CONF bc
+- CONFLICT C
 
 ## [1.0.3] - 2020-8-25
 
